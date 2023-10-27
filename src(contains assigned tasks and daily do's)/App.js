@@ -1,11 +1,11 @@
 import React from "react";
-import Header from "./Component/Header";
-import Body from "./Component/Body";
-import Footer from "./Component/Footer";
-import Bootstrap from "./Component/Bootstrap";
-import Footer2 from "./Component/Footer2";
-import Header2 from "./Component/Header2";
-import Body2 from "./Component/Body2";
+import Header from "./Component(Day3and4)/Header";
+import Body from "./Component(Day3and4)/Body";
+import Footer from "./Component(Day3and4)/Footer";
+import Bootstrap from "./Component(Day3and4)/Bootstrap";
+import Footer2 from "./Component(Day3and4)/Footer2";
+import Header2 from "./Component(Day3and4)/Header2";
+import Body2 from "./Component(Day3and4)/Body2";
 const App=()=>{
   return(
     <>
