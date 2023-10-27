@@ -22,9 +22,9 @@ const App=()=>{
 };
 export default App;
 // import React from "react";
-// import Home from "./Pages/Home";
-// import About from "./Pages/About";
-// import Contact from "./Pages/Contact";
+// import Home from "./Pages(Day5)/Home";
+// import About from "./Pages(Day5)/About";
+// import Contact from "./Pages(Day5)/Contact";
 // import Navbar from "./Component/Navbar";
 // import Login from "./Pages/Login";
 // import Signup from "./Pages/Signup";
