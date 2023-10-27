@@ -25,7 +25,7 @@ export default App;
 // import Home from "./Pages(Day5)/Home";
 // import About from "./Pages(Day5)/About";
 // import Contact from "./Pages(Day5)/Contact";
-// import Navbar from "./Component/Navbar";
+// import Navbar from "./Component(Day3and4)/Navbar";
 // import Login from "./Pages(Day5)/Login";
 // import Signup from "./Pages(Day5)/Signup";
 // import {BrowserRouter,Routes,Route} from "react-router-dom";
