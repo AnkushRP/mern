@@ -1,7 +1,7 @@
 // import React from "react";
-// import Header from "./components/Header";
-// import Body from "./components/Body";
-// import Footer from "./components/Footer";
+// import Header from "./Component/Header";
+// import Body from "./Component/Body";
+// import Footer from "./Component/Footer";
 // const App=()=>{
 //   return(
 //     <>
