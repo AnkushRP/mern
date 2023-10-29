@@ -1,38 +1,29 @@
-// import React from "react";
-// import Header from "./Component/Header";
-// import Body from "./Component/Body";
-// import Footer from "./Component/Footer";
-// const App=()=>{
-//   return(
-//     <>
-//     <Header />
-//     <Body/>
-//     <Footer/>
-//     </>
-//   );
-// };
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./Home";
+import About from "./About";
+import Contact from "./Contact";
+import Menu from "./Menu";
+import Login from "./Login";
+import './App.css';
+//import Search from "./Search";
 
-// export default App;
-import React from "react";
-import Home from "./Pages/Home";
-import About from "./Pages/About";
-import Contact from "./Pages/Contact";
-import Navbar from "./Component/Navbar";
-import Login from "./Pages/Login";
-import {BrowserRouter,Routes,Route} from "react-router-dom";
-function App(){
+//const items=['Dosa','Masala Dosa','Paneer','Chola','Gujrati','Idli Sambhar'];
+
+function App() {
   return (
-    <>
-    <BrowserRouter>
-    <Navbar/>
-    <Routes>
-      <Route element={<Home />} path="/"/>
-      <Route element={<Contact />} path="/contact"/>
-      <Route element={<About />} path="/about"/>
-      <Route element={<Login/>} path="/login"/>
-    </Routes>
-    </BrowserRouter>
-    </>
+    <div>
+      <BrowserRouter>
+        
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/menu" element={<Menu />} />
+          <Route path="/login" element={<Login />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 }
+
 export default App;
